@@ -5,7 +5,7 @@ Version: 0.1.0
 Author: Jamie Woods
 Maintainer: Jamie Woods <woodsj@pdx.edu>
 Description: This install the libraries that you need to complete homework and other projects for the class.
-License: What license is it under?
+License: 	lppl-1.3c
 Encoding: UTF-8
 LazyData: true
 Imports:
