@@ -8,3 +8,10 @@ Description: This install the libraries that you need to complete homework and o
 License: What license is it under?
 Encoding: UTF-8
 LazyData: true
+Imports:
+  learnr,
+  readr,
+  rmarkdown,
+  stargazer,
+  tidyverse,
+  tinytex
