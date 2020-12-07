@@ -14,4 +14,6 @@ Imports:
   rmarkdown,
   stargazer,
   tidyverse,
-  tinytex
+  tinytex,
+  knitr
+RoxygenNote: 7.1.1
