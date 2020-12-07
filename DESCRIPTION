@@ -1,7 +1,7 @@
 Package: PSUEC469
 Type: Package
 Title: Installs packages and provides functions for EC469/569 at Portland State University
-Version: 0.1.0
+Version: 0.1.1
 Author: Jamie Woods
 Maintainer: Jamie Woods <woodsj@pdx.edu>
 Description: This install the libraries that you need to complete homework and other projects for the class.
