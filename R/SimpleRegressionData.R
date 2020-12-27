@@ -7,8 +7,9 @@
 #' @param N Number of observations
 #' @return Data.frame with Y, X and er.
 #' @examples
-#' SimpleRegressionData(N =20)
+#' \dontrun{
 #' SimpleRegressionData(alpha = 2, beta = -2, rangex= c(-10, 20), sigma = 3, N =100)
+#' }
 
 SimpleRegressionData <- function(alpha = 1, beta = 5, rangex = c(0, 10), sigma = 1, N = 100){
   ret <- data.frame(x = runif(N, rangex[1], rangex[2]),

@@ -1,0 +1,71 @@
+---
+title: "Homework TOPIC"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+runtime: shiny    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(PSUEC469) # Other libraries may be required.
+
+
+set.seed(PSUID) # make random results reproducible
+
+```
+
+## Notes on the YAML header and setup chnunk
+
+- Be sure to change the title and author fields
+- The date is automatically set to the current day when knitting
+- Put your PSU student ID in the set.seed() function of the setup chunk on about line 16
+
+# 1. "PROBLEM NUMBER ONE"
+
+
+This is a simple homework assignment template. Notice that in the previous line we can create a header for our problem number by using a single "#". The text is then automatically bolded and indented. Below we will create a sublist. This should be used if problems have more than one part.
+
+
+a. "PROBLEM NUMBER ONE, PART A"
+
+
+b.
+
+
+c.
+
+
+d.
+
+
+e.
+
+
+
+
+# 2. "PROBLEM NUMBER TWO"
+
+
+Suppose we need to input an R chunk into our homework file. In this case, the following syntax should be used. Note that "'''" signifies we are include chunks of code (We may also tweak the options as necessary).
+
+
+```{r tidy = TRUE, message = FALSE, warning = FALSE, error = FALSE}
+#input R code here. Examples:
+#define R list
+x = c(1,2,3,4,5)
+#make plot
+plot(x)
+```
+
+Below the R code, we can provide additional descriptions and/or explain our code more thoroughly.
+
+
+
+# 3. "AND REPEAT...."
+
+```{r tidy = TRUE, message = FALSE, warning = FALSE, error = FALSE}
+#again, we can input our R code here.
+```

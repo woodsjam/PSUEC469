@@ -30,6 +30,7 @@ Data.frame with Y, X and er.
 Generates sample data for a simple regression, y = alpha + beta x + epsilon with control over var(x) and var(epsilon)
 }
 \examples{
-SimpleRegressionData(N =20)
+\dontrun{
 SimpleRegressionData(alpha = 2, beta = -2, rangex= c(-10, 20), sigma = 3, N =100)
+}
 }
