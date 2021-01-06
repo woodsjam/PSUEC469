@@ -15,5 +15,6 @@ Imports:
   stargazer,
   tidyverse,
   tinytex,
-  knitr
+  knitr,
+  sortable
 RoxygenNote: 7.1.1

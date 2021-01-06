@@ -10,6 +10,7 @@ runtime: shiny
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
+update.packages("PSUEC469")
 library(PSUEC469) # Other libraries may be required.
 
 
